@@ -1,0 +1,477 @@
+
+
+
+
+    body{
+    	    	 color: #848484;     	 font-size: 18px;     	    }
+    
+
+
+
+
+
+
+
+header.sticky .header_bottom{
+	background-color: rgba(45,45,45,1) !important;
+}
+
+
+
+
+
+
+						.content{
+				margin-top: -45px;
+			}
+				
+	
+.logo_wrapper,
+.side_menu_button,
+.shopping_cart_inner
+{
+	height: 45px;
+}
+.content.content_top_margin{
+	margin-top: 45px !important;
+}
+
+header:not(.centered_logo) .header_fixed_right_area {
+    line-height: 45px;
+}
+
+
+header.sticky .logo_wrapper,
+header.sticky.centered_logo .logo_wrapper,
+header.sticky .side_menu_button,
+header.sticky .shopping_cart_inner
+	{
+	height: 60px !important;
+}
+
+header.sticky nav.main_menu > ul > li > a, 
+.light.sticky nav.main_menu > ul > li > a, 
+.light.sticky nav.main_menu > ul > li > a:hover, 
+.light.sticky nav.main_menu > ul > li.active > a, 
+.dark.sticky nav.main_menu > ul > li > a, 
+.dark.sticky nav.main_menu > ul > li > a:hover, 
+.dark.sticky nav.main_menu > ul > li.active > a {
+	line-height: 60px;
+}
+
+
+
+        header.fixed_hiding .q_logo a,
+        header.fixed_hiding .q_logo{
+            max-height: 76px;
+        }
+
+    @media only screen and (max-width: 1000px){
+        .q_logo a,.q_logo img{
+            height: 30px !important;
+        }
+    }   
+
+    @media only screen and (max-width: 480px){
+        .q_logo a,.q_logo img{
+            height: 30px !important;
+        }
+    }   
+
+
+    .touch section.parallax_section_holder{
+		height: auto !important;
+		min-height: 300px;  
+		background-position: center top !important;  
+		background-attachment: scroll;
+        background-size: cover;
+	}
+nav.main_menu > ul > li > a{
+	line-height: 45px;
+}
+
+
+
+nav.main_menu > ul > li > a{
+			font-family: 'Questrial', sans-serif;
+		 font-size: 16px;     		 font-weight: 700; 		 text-transform: initial; }
+
+
+		nav.main_menu ul li a span.underline_dash,
+		nav.vertical_menu ul li a span.underline_dash{
+		height: 2px		}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+header.sticky nav.main_menu > ul > li > a:hover span, 
+header.sticky nav.main_menu > ul > li.active > a span,
+header.sticky nav.main_menu > ul > li:hover > a > span,
+header.sticky nav.main_menu > ul > li > a:hover > i, 
+header.sticky nav.main_menu > ul > li:hover > a > i,
+header.sticky nav.main_menu > ul > li.active > a > i,
+.light.sticky nav.main_menu > ul > li > a:hover, 
+.light.sticky nav.main_menu > ul > li.active > a, 
+.dark.sticky nav.main_menu > ul > li > a:hover, 
+.dark.sticky nav.main_menu > ul > li.active > a{
+	color: #ededed !important;
+}
+
+
+
+
+	@media only screen and (max-width: 1000px){
+		.header_bottom,
+		nav.mobile_menu,
+		header.fixed_top_header .top_header{
+			background-color: #2d2d2d !important;
+		}
+	}
+
+
+
+
+
+
+    p{
+    	color: #848484;    	    	font-size: 18px;    	    	    	    	    	    }
+    .filter_holder ul li span,
+    blockquote h5,
+    .q_social_icon_holder .simple_social,
+    .header-widget.widget_nav_menu ul.menu li a,
+    .side_menu a,
+    .side_menu li,
+    .side_menu span,
+    .side_menu p,
+    .side_menu .widget.widget_rss li a.rsswidget,
+    .side_menu #wp-calendar caption,
+    .side_menu #wp-calendar th, 
+    .side_menu #wp-calendar td,
+    aside .widget #lang_sel_list li a,
+    aside .widget #lang_sel li a,
+    aside .widget #lang_sel_click li a,
+    .wpb_widgetised_column .widget #lang_sel_list li a,
+    .wpb_widgetised_column .widget #lang_sel li a,
+    .wpb_widgetised_column .widget #lang_sel_click li a,
+    section.side_menu #lang_sel_list li a,
+    section.side_menu #lang_sel li a,
+    section.side_menu #lang_sel_click li a,
+    footer #lang_sel_list li a,
+    footer #lang_sel li a,
+    footer #lang_sel_click li a,
+    footer #lang_sel_list.lang_sel_list_horizontal a,
+    footer #lang_sel_list.lang_sel_list_vertical a,
+    .side_menu #lang_sel_list.lang_sel_list_horizontal a,
+    .side_menu #lang_sel_list.lang_sel_list_vertical a,
+    #lang_sel_footer a{
+    	color: #848484;    }
+    .header_top #lang_sel > ul > li > a, 
+    .header_top #lang_sel_click > ul > li> a,
+    footer #lang_sel ul li a,
+    footer #lang_sel ul ul a,
+    footer #lang_sel_click ul li a,
+    footer #lang_sel_click ul ul a,
+    footer #lang_sel_click ul ul a span,
+    section.side_menu #lang_sel ul li a,
+    section.side_menu #lang_sel ul ul a,
+    section.side_menu #lang_sel ul ul a:visited,
+    section.side_menu #lang_sel_click > ul > li > a,
+    section.side_menu #lang_sel_click ul ul a,
+    section.side_menu #lang_sel_click ul ul a:visited{
+    	color: #848484 !important;    }
+    
+
+
+
+
+
+
+
+
+	.qbutton.big_large,
+	.qbutton.big_large_full_width {
+
+									
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Blog Masonry Gallery - end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .side_menu_button > a,
+    .mobile_menu_button span,
+	.fixed_top_header .side_menu_button > a,
+    .fixed_top_header .popup_menu .line,
+    .fixed_top_header .mobile_menu_button span{ color: #ffffff;font-size: 20pxpx; }
+
+    .popup_menu .line,
+    .popup_menu .line:after, .popup_menu .line:before{
+        background-color: #ffffff;
+    }
+ 
+ 
+ .vertical_menu_float .menu-item .second{
+	left: calc(100% + 30px); /*because of the padding*/
+}
+
+.vertical_menu_hidden aside.vertical_menu_area .vertical_menu_float .menu-item .second {
+	left: calc(100% + 40px);
+}
+
+ 
+ 
+ 
+
+
+
+
+	.vertical_menu_area{
+		text-align:left;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.cf7_custom_style_1  input.wpcf7-form-control.wpcf7-submit,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+		background-color: #0f59d8;border-color: #0f59d8;color: #ffffff;font-size: 14px;height: 40px;line-height: 40px;padding: 0 40px;	}
+
+	.cf7_custom_style_1  input.wpcf7-form-control.wpcf7-submit:hover,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover {
+		color: #ffffff;background-color: #5889d8;border-color: #5889d8;	}
+
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date,
+	.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea,
+	.cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz{
+		background-color: #ffffff;border-color: #e5e5e5;border-width: 1.25px;border-style:solid;border-top-left-radius: 4px;border-top-right-radius: 4px;border-bottom-right-radius: 4px;border-bottom-left-radius: 4px;color: #898989;font-size: 16px;font-style: normal;text-transform: none;padding-right: 10px;padding-left: 10px;margin-bottom: 10px;	}
+
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text:focus,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number:focus,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date:focus,
+	.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea:focus,
+	.cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select:focus,
+	.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz:focus{
+		background-color: #ffffff;border-color: #eeee22;	}
+
+
+
+
+
+
+
+
+
+	.cf7_custom_style_1 ::-webkit-input-placeholder{
+		color: #898989;opacity:1;	}
+	.cf7_custom_style_1 :-moz-placeholder{
+		color: #898989;opacity:1;	}
+	.cf7_custom_style_1 ::-moz-placeholder{
+		color: #898989;opacity:1;	}
+	.cf7_custom_style_1 :-ms-input-placeholde{
+		color: #898989;opacity:1;	}
+													.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea{
+	height: 100px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+DirectoryIndex index.php index.html index.htm
+
+# Prevent Apache from serving .htaccess files:
+<FilesMatch "^\.htaccess">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
