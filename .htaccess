@@ -1,12 +1,9 @@
 DirectoryIndex index.php index.html index.htm
 
 <IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteCond %{HTTPS} off [OR]
-	RewriteCond %{HTTP_HOST} ^www\. [NC]
-	RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
-	RewriteCond %{HTTP:X-Forwarded-Proto} !https
-	RewriteRule ^ https://%1%{REQUEST_URI} [L,NE,R=301]
+	RewriteEngine on
+    RewriteCond %{HTTP_HOST} ^hippocampus.space [NC]
+    RewriteRule ^(.*)$ http://www.hippocampus.space/$1 [L,R=301,NC]
 </IfModule>
 
 # Prevent Apache from serving .htaccess files:
