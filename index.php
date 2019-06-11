@@ -211,6 +211,7 @@
                         padding-left: 30px !important;
                         background-color: #ffffff !important;
                         border-radius: 15px !important;
+                        max-height: 400px;
                     }
 
                     .vc_custom_1552410225711 {
@@ -233,7 +234,9 @@
 
                     .vc_custom_1552337477009 {
                         margin-top: 30px !important;
-                    }</style>
+                    }
+
+                </style>
 
                 <div class="full_width">
                     <div class="full_width_inner">
