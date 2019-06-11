@@ -1,5 +1,14 @@
 DirectoryIndex index.php index.html index.htm
 
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTPS} off [OR]
+	RewriteCond %{HTTP_HOST} ^www\. [NC]
+	RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+	RewriteCond %{HTTP:X-Forwarded-Proto} !https
+	RewriteRule ^ https://%1%{REQUEST_URI} [L,NE,R=301]
+</IfModule>
+
 # Prevent Apache from serving .htaccess files:
 <FilesMatch "^\.htaccess">
     Order allow,deny
