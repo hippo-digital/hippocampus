@@ -1,5 +1,11 @@
 DirectoryIndex index.php index.html index.htm
 
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+    RewriteCond %{HTTP_HOST} ^hippocampus.space [NC]
+    RewriteRule ^(.*)$ http://www.hippocampus.space/$1 [L,R=301,NC]
+</IfModule>
+
 # Prevent Apache from serving .htaccess files:
 <FilesMatch "^\.htaccess">
     Order allow,deny
