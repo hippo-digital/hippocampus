@@ -236,6 +236,10 @@
                         margin-top: 30px !important;
                     }
 
+                    .q_logo img {
+                        padding-top: 3px;
+                    }
+
                 </style>
 
                 <div class="full_width">
