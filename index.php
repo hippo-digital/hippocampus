@@ -49,11 +49,9 @@
     <link rel="stylesheet" id="stylesheet-css" href="./assets/stylesheet.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="style_dynamic-css" href="./assets/style_dynamic.css" type="text/css" media="all">
     <link rel="stylesheet" id="responsive-css" href="./assets/responsive.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="style_dynamic_responsive-css" href="./assets/style_dynamic_responsive.css"
-          type="text/css" media="all">
+    <link rel="stylesheet" id="style_dynamic_responsive-css" href="./assets/style_dynamic_responsive.css" type="text/css" media="all">
     <link rel="stylesheet" id="js_composer_front-css" href="./assets/js_composer.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="qode_font_awesome-css" href="./assets/font-awesome.min.css" type="text/css" media="all">
-
 
     <link rel="icon" href="./assets/cropped-hippo-square-1-32x32.png" sizes="32x32">
     <link rel="icon" href="./assets/cropped-hippo-square-1-192x192.png" sizes="192x192">
@@ -220,7 +218,7 @@
 
                     .vc_custom_1552315337687 {
                         margin-top: 25px !important;
-                        margin-bottom: -75px !important;
+                        /*margin-bottom: -75px !important;*/
                     }
 
                     .vc_custom_1552337483965 {
@@ -229,7 +227,7 @@
 
                     .vc_custom_1552315331534 {
                         margin-top: 25px !important;
-                        margin-bottom: -75px !important;
+                        /*margin-bottom: -75px !important;*/
                     }
 
                     .vc_custom_1552337477009 {
@@ -238,6 +236,29 @@
 
                     .q_logo img {
                         padding-top: 3px;
+                    }
+
+                    .vc_custom_1558545012878 {
+                        min-height: 250px;
+                        transition: all 0.5s ease;
+                    }
+
+                    @media only screen and (min-width:600px){
+                        .vc_custom_1558545012878 {
+                            min-height: 350px;
+                        }
+                    }
+
+                    @media only screen and (min-width:800px){
+                        .vc_custom_1558545012878 {
+                            min-height: 500px;
+                        }
+                    }
+
+                    @media only screen and (min-width:1024px){
+                        .vc_custom_1558545012878 {
+                            min-height: 800px;
+                        }
                     }
 
                 </style>
@@ -250,82 +271,7 @@
                                 <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-has-fill">
                                     <div class="vc_column-inner vc_custom_1558545012878">
                                         <div class="wpb_wrapper">
-                                            <div class="vc_row wpb_row section vc_row-fluid vc_inner  grid_section disable_negative_margin"
-                                                 style=" text-align:left;">
-                                                <div class=" section_inner clearfix">
-                                                    <div class="section_inner_margin clearfix">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-offset-0 vc_col-md-offset-0 vc_col-sm-offset-0 vc_col-has-fill">
-                                                            <div class="vc_column-inner vc_custom_1552245550557"
-                                                                 style="visibility: hidden;">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="custom_font_holder"
-                                                                         style="font-family: Raleway,sans-serif; font-size: 30px; line-height: 38px; font-style: normal; font-weight: bold; color: #383838; text-decoration: none; padding: 6; text-align: left;">
-                                                                        Submit an enquiry today
-                                                                    </div>
-                                                                    <div class="separator  normal   "
-                                                                         style="background-color: #ffffff;"></div>
-                                                                    <div class="separator  normal   "
-                                                                         style="background-color: #ffffff;"></div>
-                                                                    <div role="form" class="wpcf7"
-                                                                         id="wpcf7-f14883-p14468-o1" lang="en-GB"
-                                                                         dir="ltr">
-                                                                        <div class="screen-reader-response"></div>
-                                                                        <form class="wpcf7-form cf7_custom_style_1"
-                                                                              novalidate="novalidate">
-                                                                            <div style="display: none;">
-                                                                                <input type="hidden" name="_wpcf7"
-                                                                                       value="14883">
-                                                                                <input type="hidden"
-                                                                                       name="_wpcf7_version"
-                                                                                       value="5.1.3">
-                                                                                <input type="hidden"
-                                                                                       name="_wpcf7_locale"
-                                                                                       value="en_GB">
-                                                                                <input type="hidden"
-                                                                                       name="_wpcf7_unit_tag"
-                                                                                       value="wpcf7-f14883-p14468-o1">
-                                                                                <input type="hidden"
-                                                                                       name="_wpcf7_container_post"
-                                                                                       value="14468">
-                                                                            </div>
-                                                                            <p><label>Name<br>
-                                                                                    <span class="wpcf7-form-control-wrap your-name"><input
-                                                                                                type="text"
-                                                                                                name="your-name"
-                                                                                                value="" size="40"
-                                                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                                aria-required="true"
-                                                                                                aria-invalid="false"></span>
-                                                                                </label></p>
-                                                                            <p><label>Email<br>
-                                                                                    <span class="wpcf7-form-control-wrap your-email"><input
-                                                                                                type="email"
-                                                                                                name="your-email"
-                                                                                                value="" size="40"
-                                                                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                                                                aria-required="true"
-                                                                                                aria-invalid="false"></span>
-                                                                                </label></p>
-                                                                            <p><label> Your Message<br>
-                                                                                    <span class="wpcf7-form-control-wrap your-message"><textarea
-                                                                                                name="your-message"
-                                                                                                cols="40"
-                                                                                                rows="10"
-                                                                                                class="wpcf7-form-control wpcf7-textarea"
-                                                                                                aria-invalid="false"></textarea></span>
-                                                                                </label></p>
-                                                                            <p><input type="submit" value="Send"
-                                                                                      class="wpcf7-form-control wpcf7-submit"><span
-                                                                                        class="ajax-loader"></span></p>
-                                                                            <div class="wpcf7-response-output wpcf7-display-none"></div>
-                                                                        </form>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            &nbsp;
                                         </div>
                                     </div>
                                 </div>
@@ -381,7 +327,7 @@
                                                                                         style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
                                                                                         <a itemprop="image"
                                                                                            class="qode-prettyphoto"
-                                                                                           href="./assets/1st-Room-2-1024x682.jpg"
+                                                                                           href="./assets/1st-Room-2-1400x900.jpg"
                                                                                            data-rel="prettyPhoto[rel-14468-60974044]"
                                                                                            rel="prettyPhoto[rel-14468-60974044]"><img
                                                                                                     class=""
@@ -397,7 +343,7 @@
                                                                                         class="flex-active-slide"><a
                                                                                                 itemprop="image"
                                                                                                 class="qode-prettyphoto"
-                                                                                                href="./assets/beanbags-1-1024x682.jpg"
+                                                                                                href="./assets/beanbags-1-1400x900.jpg"
                                                                                                 data-rel="prettyPhoto[rel-14468-60974044]"
                                                                                                 rel="prettyPhoto[rel-14468-60974044]"><img
                                                                                                     class=""
@@ -429,7 +375,7 @@
                                                                     <div class="separator  small left  "
                                                                          style="margin-top: 7px;margin-bottom: 38px;"></div>
                                                                     <div class="q_icon_with_title medium normal_icon ">
-                                                                        <div class="icon_holder q_icon_animation"
+                                                                        <div class="icon_holder "
                                                                              style=" transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;">
                                                                             <span data-icon-type="normal"
                                                                                   style="font-size: 38px;"
@@ -446,7 +392,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="q_icon_with_title medium normal_icon ">
-                                                                        <div class="icon_holder q_icon_animation"
+                                                                        <div class="icon_holder "
                                                                              style=" transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;">
                                                                             <span data-icon-type="normal"
                                                                                   style="font-size: 38px;"
@@ -463,7 +409,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="q_icon_with_title medium normal_icon ">
-                                                                        <div class="icon_holder q_icon_animation"
+                                                                        <div class="icon_holder "
                                                                              style=" transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;">
                                                                             <span data-icon-type="normal"
                                                                                   style="font-size: 38px;"
@@ -520,7 +466,7 @@
                                                                                         style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
                                                                                         <a itemprop="image"
                                                                                            class="qode-prettyphoto"
-                                                                                           href="./assets/Main-room-2-1024x682.jpg"
+                                                                                           href="./assets/Main-room-2-1400x900.jpg"
                                                                                            data-rel="prettyPhoto[rel-14468-1472712699]"
                                                                                            rel="prettyPhoto[rel-14468-1472712699]"><img
                                                                                                     class=""
@@ -570,7 +516,7 @@
                                                                     <div class="separator  small left  "
                                                                          style="margin-top: 7px;margin-bottom: 38px;"></div>
                                                                     <div class="q_icon_with_title medium normal_icon ">
-                                                                        <div class="icon_holder q_icon_animation"
+                                                                        <div class="icon_holder "
                                                                              style=" transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;">
                                                                             <span data-icon-type="normal"
                                                                                   style="font-size: 38px;"
@@ -587,7 +533,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="q_icon_with_title medium normal_icon ">
-                                                                        <div class="icon_holder q_icon_animation"
+                                                                        <div class="icon_holder "
                                                                              style=" transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;">
                                                                             <span data-icon-type="normal"
                                                                                   style="font-size: 38px;"
@@ -604,7 +550,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="q_icon_with_title medium normal_icon ">
-                                                                        <div class="icon_holder q_icon_animation"
+                                                                        <div class="icon_holder"
                                                                              style=" transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;">
                                                                             <span data-icon-type="normal"
                                                                                   style="font-size: 38px;"
@@ -621,7 +567,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="q_icon_with_title medium normal_icon ">
-                                                                        <div class="icon_holder q_icon_animation"
+                                                                        <div class="icon_holder "
                                                                              style=" transition-delay: 100ms; -webkit-transition-delay: 100ms; -moz-transition-delay: 100ms; -o-transition-delay: 100ms;">
                                                                             <span data-icon-type="normal"
                                                                                   style="font-size: 38px;"
@@ -769,9 +715,8 @@
                                     <div class="column3 footer_col3">
                                         <div class="column_inner">
                                             <div id="text-4" class="widget widget_text"><h5>More Links</h5>
-                                                <div class="textwidget"><a href="https://hippodigital.co.uk/"
-                                                                           title="Go to the Hippo Digital website">Hippo
-                                                        Digital</a>
+                                                <div class="textwidget">
+                                                    <a href="https://hippodigital.co.uk/" title="Go to the Hippo Digital website">Hippo Digital</a>
                                                     <br>
                                                     <a href="https://twitter.com/Hippo_campus_"
                                                        title="Visit the Hippo Campus Twitter page">Twitter</a></div>
@@ -788,7 +733,8 @@
 
     </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!--<script type="text/javascript" src="./assets/scripts.js"></script>-->
 <!--<script type="text/javascript" src="./assets/qode-like.min.js"></script>-->
 <!--<script type="text/javascript" src="./assets/core.min.js"></script>-->
@@ -801,8 +747,8 @@
 <script type="text/javascript" src="./assets/plugins.js"></script>
 <!--<script type="text/javascript" src="./assets/isotope.pkgd.min.js"></script>-->
 <!--<script type="text/javascript" src="./assets/packery-mode.pkgd.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/jquery.stretch.js"></script>-->
-<script type="text/javascript" src="./assets/imagesloaded.js"></script>
+<script type="text/javascript" src="./assets/jquery.stretch.js"></script>
+<!--<script type="text/javascript" src="./assets/imagesloaded.js"></script>-->
 <!--<script type="text/javascript" src="./assets/default_dynamic.js"></script>-->
 <script type="text/javascript" src="./assets/default.min.js"></script>
 <!--<script type="text/javascript" src="./assets/custom_js.js"></script>-->
