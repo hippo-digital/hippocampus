@@ -216,18 +216,22 @@
                         margin-bottom: 50px !important;
                     }
 
-                    .vc_custom_1552315337687 {
-                        margin-top: 25px !important;
-                        /*margin-bottom: -75px !important;*/
+                    @media only screen and (min-width:1000px) {
+                        .vc_custom_1552315337687 {
+                            margin-top: 25px !important;
+                            margin-bottom: -75px !important;
+                        }
                     }
 
                     .vc_custom_1552337483965 {
                         margin-top: 30px !important;
                     }
 
-                    .vc_custom_1552315331534 {
-                        margin-top: 25px !important;
-                        /*margin-bottom: -75px !important;*/
+                    @media only screen and (min-width:1000px) {
+                        .vc_custom_1552315331534 {
+                            margin-top: 25px !important;
+                            margin-bottom: -75px !important;
+                        }
                     }
 
                     .vc_custom_1552337477009 {
