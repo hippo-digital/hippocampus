@@ -7,9 +7,3 @@ DirectoryIndex index.php index.html index.htm
 	RewriteCond %{HTTP_HOST} ^(.*)$  [NC]
 	RewriteRule (.*) https://www.hippocampus.space/$1 [R=301,L]
 </IfModule>
-
-# Prevent Apache from serving .htaccess files:
-<FilesMatch "^\.htaccess">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
