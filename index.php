@@ -41,11 +41,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta name="google-site-verification" content="0m0bJl45p7fQBuqTzG2NvkAlFqtWJcyRv_NFeHg00jk">
 
-    <!--    <link rel="stylesheet" id="wp-block-library-css" href="./assets/style.min.css" type="text/css" media="all">-->
-    <!--    <link rel="stylesheet" id="rs-plugin-settings-css" href="./assets/settings.css" type="text/css" media="all">-->
-    <!--    <link rel="stylesheet" id="default_style-css" href="./assets/style.css" type="text/css" media="all">-->
-    <!--    <link rel="stylesheet" href="./assets/styles.css" type="text/css" media="all">-->
-
     <link rel="stylesheet" id="stylesheet-css" href="./assets/stylesheet.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="style_dynamic-css" href="./assets/style_dynamic.css" type="text/css" media="all">
     <link rel="stylesheet" id="responsive-css" href="./assets/responsive.min.css" type="text/css" media="all">
@@ -737,26 +732,8 @@
 
     </div>
 </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!--<script type="text/javascript" src="./assets/scripts.js"></script>-->
-<!--<script type="text/javascript" src="./assets/qode-like.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/core.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/widget.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/accordion.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/position.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/menu.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/effect-slide.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/effect-transfer.min.js"></script>-->
 <script type="text/javascript" src="./assets/plugins.js"></script>
-<!--<script type="text/javascript" src="./assets/isotope.pkgd.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/packery-mode.pkgd.min.js"></script>-->
-<script type="text/javascript" src="./assets/jquery.stretch.js"></script>
-<!--<script type="text/javascript" src="./assets/imagesloaded.js"></script>-->
-<!--<script type="text/javascript" src="./assets/default_dynamic.js"></script>-->
 <script type="text/javascript" src="./assets/default.min.js"></script>
-<!--<script type="text/javascript" src="./assets/custom_js.js"></script>-->
-<!--<script type="text/javascript" src="./assets/js_composer_front.min.js"></script>-->
-<!--<script type="text/javascript" src="./assets/wp-embed.min.js"></script>-->
 </body>
 </html>
